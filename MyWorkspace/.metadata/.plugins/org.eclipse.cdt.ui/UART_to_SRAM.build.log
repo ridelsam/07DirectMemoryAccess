@@ -1,0 +1,10 @@
+21:24:29 **** Incremental Build of configuration Debug for project UART_to_SRAM ****
+make -j8 all 
+arm-none-eabi-size   UART_to_SRAM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11856	     20	   1748	  13624	   3538	UART_to_SRAM.elf
+Finished building: default.size.stdout
+ 
+
+21:24:29 Build Finished. 0 errors, 0 warnings. (took 226ms)
+
