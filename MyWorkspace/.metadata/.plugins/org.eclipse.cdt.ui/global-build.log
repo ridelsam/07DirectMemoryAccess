@@ -1,63 +1,22 @@
-21:08:16 **** Incremental Build of configuration Debug for project UART_to_SRAM ****
+20:21:00 **** Incremental Build of configuration Debug for project ADC1_SRAM1_Temp ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "UART_to_SRAM.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ridel\Documents\CareerDevelopment\Embedded\07DMA\DMAProgramming\MyWorkspace\UART_to_SRAM\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_to_SRAM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: UART_to_SRAM.elf
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "ADC1_SRAM1_Temp.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\ridel\Documents\CareerDevelopment\Embedded\07DMA\DMAProgramming\MyWorkspace\ADC1_SRAM1_Temp\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC1_SRAM1_Temp.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC1_SRAM1_Temp.elf
  
-arm-none-eabi-size   UART_to_SRAM.elf 
-arm-none-eabi-objdump -h -S  UART_to_SRAM.elf  > "UART_to_SRAM.list"
+arm-none-eabi-size   ADC1_SRAM1_Temp.elf 
+arm-none-eabi-objdump -h -S  ADC1_SRAM1_Temp.elf  > "ADC1_SRAM1_Temp.list"
    text	   data	    bss	    dec	    hex	filename
-  11856	     20	   1748	  13624	   3538	UART_to_SRAM.elf
+  11768	     20	   1772	  13560	   34f8	ADC1_SRAM1_Temp.elf
 Finished building: default.size.stdout
  
-Finished building: UART_to_SRAM.list
+Finished building: ADC1_SRAM1_Temp.list
  
-21:08:49 **** Incremental Build of configuration Debug for project UART_to_SRAM ****
+20:27:00 **** Incremental Build of configuration Debug for project ADC1_SRAM1_Temp ****
 make -j8 all 
-arm-none-eabi-size   UART_to_SRAM.elf 
+arm-none-eabi-size   ADC1_SRAM1_Temp.elf 
    text	   data	    bss	    dec	    hex	filename
-  11856	     20	   1748	  13624	   3538	UART_to_SRAM.elf
-Finished building: default.size.stdout
- 
-21:11:31 **** Incremental Build of configuration Debug for project UART_to_SRAM ****
-make -j8 all 
-arm-none-eabi-size   UART_to_SRAM.elf 
-   text	   data	    bss	    dec	    hex	filename
-  11856	     20	   1748	  13624	   3538	UART_to_SRAM.elf
-Finished building: default.size.stdout
- 
-21:15:08 **** Incremental Build of configuration Debug for project UART_to_SRAM ****
-make -j8 all 
-arm-none-eabi-size   UART_to_SRAM.elf 
-   text	   data	    bss	    dec	    hex	filename
-  11856	     20	   1748	  13624	   3538	UART_to_SRAM.elf
-Finished building: default.size.stdout
- 
-21:18:39 **** Incremental Build of configuration Debug for project UART_to_SRAM ****
-make -j8 all 
-arm-none-eabi-size   UART_to_SRAM.elf 
-   text	   data	    bss	    dec	    hex	filename
-  11856	     20	   1748	  13624	   3538	UART_to_SRAM.elf
-Finished building: default.size.stdout
- 
-21:20:35 **** Incremental Build of configuration Debug for project UART_to_SRAM ****
-make -j8 all 
-arm-none-eabi-size   UART_to_SRAM.elf 
-   text	   data	    bss	    dec	    hex	filename
-  11856	     20	   1748	  13624	   3538	UART_to_SRAM.elf
-Finished building: default.size.stdout
- 
-21:24:15 **** Incremental Build of configuration Debug for project UART_to_SRAM ****
-make -j8 all 
-arm-none-eabi-size   UART_to_SRAM.elf 
-   text	   data	    bss	    dec	    hex	filename
-  11856	     20	   1748	  13624	   3538	UART_to_SRAM.elf
-Finished building: default.size.stdout
- 
-21:24:29 **** Incremental Build of configuration Debug for project UART_to_SRAM ****
-make -j8 all 
-arm-none-eabi-size   UART_to_SRAM.elf 
-   text	   data	    bss	    dec	    hex	filename
-  11856	     20	   1748	  13624	   3538	UART_to_SRAM.elf
+  11768	     20	   1772	  13560	   34f8	ADC1_SRAM1_Temp.elf
 Finished building: default.size.stdout
  
