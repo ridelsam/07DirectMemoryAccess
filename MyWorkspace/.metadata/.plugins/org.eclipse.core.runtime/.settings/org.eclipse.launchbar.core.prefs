@@ -1,10 +1,13 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_Poll,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_IT,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_to_SRAM,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC1_SRAM1_Temp
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_Poll,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_IT,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_to_SRAM,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC1_SRAM1_Temp,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_TX_DMA_M2P
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC1_SRAM1_Temp/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC1_SRAM1_Temp/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_IT/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_IT/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_Poll/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_Poll/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_TX_DMA_M2P/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_to_SRAM/activeLaunchMode=debug
